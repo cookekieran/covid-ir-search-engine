@@ -16,7 +16,9 @@ QUERY = "covid in kids"
 INDEX_DIR = root_dir / "index"
 OUTPUT_FILE = script_dir / "bm25f_rm3_output.txt"
 
+print()
 print(f"Query: '{QUERY}'")
+print()
 
 searcher = LuceneSearcher(str(INDEX_DIR))
 
