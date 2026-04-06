@@ -9,7 +9,6 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-# --- configuration ---
 DOCS_PATH = Path("docs.jsonl")
 RM3_OUTPUT_PATH = Path("bm25f_rm3_output.txt")
 COLBERT_MODEL_NAME = "colbert-ir/colbertv2.0"
@@ -18,7 +17,7 @@ try:
     from colbert.modeling.checkpoint import Checkpoint
     from colbert.infra import ColBERTConfig
 except ImportError:
-    print("error: colbert is not installed. please run: pip install colbert-ai==0.2.21")
+    print("error: colbert is not installed.")
     sys.exit(1)
 
 
