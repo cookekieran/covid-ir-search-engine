@@ -1,0 +1,6 @@
+pip==23.3.1
+setuptools==68.0.0
+wheel==0.40.0
+torch==2.5.1+cu121
+tqdm==4.67.3
+colbert-ai==0.2.21
