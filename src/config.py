@@ -19,9 +19,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 # Directory paths
 DATA_DIR = PROJECT_ROOT / "data"
 CORPUS_DIR = DATA_DIR / "corpus"
-TOPICS_FILE = DATA_DIR / "topics" / "topics-rnd1.xml"
-QRELS_FILE = DATA_DIR / "qrels" / "qrels-rnd1.txt"
-CORPUS_METADATA = DATA_DIR / "corpus" / "metadata.csv"
+TOPICS_FILE = PROJECT_ROOT / "sample_data" / "topics" / "topics-rnd1.xml"
+QRELS_FILE = PROJECT_ROOT / "sample_data" / "qrels" / "qrels-rnd1.txt"
+CORPUS_METADATA = PROJECT_ROOT / "sample_data" / "metadata.csv"
 
 INDEX_DIR = PROJECT_ROOT / "index"
 RUNS_DIR = PROJECT_ROOT / "runs"
