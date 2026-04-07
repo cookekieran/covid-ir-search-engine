@@ -14,9 +14,9 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from config import CORPUS_METADATA, DATA_DIR, CORPUS_DIR
+from config import CORPUS_METADATA, DATA_DIR, PROJECT_ROOT, CORPUS_DIR # PROJECT ROOT added
 
-JSONL_DIR = DATA_DIR / "corpus_jsonl"
+JSONL_DIR = PROJECT_ROOT / "sample_data"
 
 FULLTEXT_SUBSETS = [
     "comm_use_subset",
